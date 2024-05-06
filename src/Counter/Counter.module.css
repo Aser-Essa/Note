@@ -1,0 +1,33 @@
+.counterContainer {
+    max-width: 850px;
+    margin: 45px auto;
+    border-radius: 6px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 15px;
+    margin-bottom: 8px;
+    background-color: rgba(173, 166, 166, 0.15);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+}
+
+.color {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+
+@media (max-width:767px) {
+    .row {
+        width: 95%;
+        margin: 10px auto;
+    }
+    .counterContainer {
+        margin: 20px auto;
+        margin-bottom: 50px;
+    }
+}

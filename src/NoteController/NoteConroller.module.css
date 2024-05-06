@@ -1,0 +1,38 @@
+.cardController {
+    max-width: 850px;
+    gap: 15px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill , minmax(196.8px , 1fr));
+    overflow: hidden;
+}
+
+.cardContainer {
+    position: relative;
+    overflow: hidden;
+    width: fit-content;
+}
+
+.deleteBtn {
+    position: absolute;
+    bottom: 0;
+    right: -60px;
+    width: 55px;
+    height: 23px;
+    border-radius: 4px 0 0 0;
+    transition-duration: 1s;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    font-size: 13px;
+}
+
+.cardContainer:hover .deleteBtn {
+    right: 0;
+}
+
+@media (max-width:767px) {
+    .cardContainer {
+        width: 100%;
+    }
+}

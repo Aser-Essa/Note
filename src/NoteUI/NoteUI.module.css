@@ -1,0 +1,65 @@
+.card {
+    width: 200px;
+    border-radius: 6px;
+    overflow: hidden;
+    height: 150px;
+}
+
+.colors {
+    width: 100%;
+    height: 22px;
+    overflow: hidden;
+}
+
+.colors span {
+    width: calc(100% / 6);
+    height: 100%;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.gray {
+    background-color:#607d8b;
+}
+
+.yellow {
+    background-color:#ffc107;
+}
+
+.orange {
+    background-color:#ff5722;
+}
+
+.pink {
+    background-color:#e91e63;
+}
+
+.violate {
+    background-color:#673ab7;
+}
+
+.blue {
+    background-color:#2196f3;
+}
+
+textarea {
+    width: 100%;
+    height: 130px;
+    resize: none;
+    padding: 15px 12px;
+    color: white;
+    font-size: 15px;
+    overflow: auto;
+    border-radius: 0 0 6px 6px;
+}
+
+textarea::-webkit-scrollbar {
+    width: 5px;
+}
+
+@media (max-width:767px) {
+    .card {
+        width: 95%;
+        margin: auto;
+    }
+}

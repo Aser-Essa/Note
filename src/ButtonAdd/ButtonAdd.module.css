@@ -1,0 +1,27 @@
+.add {
+    border: 2px dashed rgba(0, 0, 0, 0.25);
+    width: 200px;
+    height: 150px;
+    border-radius: 6px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    color: rgba(0, 0, 0, 0.35);
+    cursor: pointer;
+    box-shadow: 1px 0px 5px 2px #00000021;
+    transition: .5s;
+}
+
+.add:hover {
+    border: 2px dashed rgba(0, 0, 0, 0.40);
+    color: rgba(0, 0, 0, 0.45);
+}
+
+@media (max-width:767px) {
+    .add {
+        width: 95%;
+        margin: auto;
+    }
+}
